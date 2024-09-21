@@ -2,8 +2,19 @@
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="">
-  <main></main>
-</Layout>
+<Layout title="@yutalinux Homepage">
+  <main
+    class="max-w-4xl bg-neutral-100 m-auto min-h-screen shadow-2xl shadow-[#0005] px-5 py-2"
+  >
+    <section id="sns">
+      <h2 class="text-4xl mb-3">SNS</h2>
 
-<style></style>
+      <div class="flex gap-2">
+        <a href="https://x.com/yutalinux">X</a>
+        <a href="https://bsky.app/profile/yutalinux.bsky.social">Bluesky</a>
+        <a href="https://zenn.dev/yutalinux">Zenn</a>
+        <a href="https://github.com/yutalinux">Github</a>
+      </div>
+    </section>
+  </main>
+</Layout>
